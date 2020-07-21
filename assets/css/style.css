@@ -11,4 +11,101 @@ body {
 .container {
   width: 1920px;
 }
+
+.container > section {
+  width: 1485px;
+  margin-left: 150px;
+}
+
+#logo {
+  float: left;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+#menu-bar {
+  margin-left: 360px;
+  margin-top: 30px;
+  float: left;
+}
+
+#pricing-btn {
+  box-sizing: border-box;
+  background: linear-gradient(to right, #d6fefb, #fcf2eb);
+  width: 175px;
+  height: 41px;
+  margin-left: 268px;
+  font-size: 16px;
+  padding: 9px 28.2px 11px 34.8px;
+  outline: none;
+  border: none;
+  transition: 0.1s;
+  cursor: pointer;
+}
+
+#pricing-btn:hover {
+  transition: ease-in;
+  background: linear-gradient(to right, #92e7e2, #f8ddc9);
+}
+
+#menu-bar a {
+  margin-right: 40px;
+  float: left;
+}
+
+a:nth-child(1) {
+  color: #fb7b58;
+}
+
+#header-content {
+  margin-right: 74.2px;
+  margin-top: 273px;
+  float: left;
+}
+
+#title {
+  font-size: 62px;
+  width: 500px;
+  margin-bottom: 15px;
+  float: left;
+  font-weight: normal;
+  float: left;
+}
+
+#content {
+  width: 500px;
+  font-size: 18px;
+  line-height: 32px;
+  margin-bottom: 35.5px;
+}
+
+#contact-btn {
+  box-sizing: border-box;
+  background: linear-gradient(to right, #d6fefb, #fcf2eb);
+  width: 200px;
+  height: 50px;
+  font-size: 16px;
+  padding: 9px 28.2px 11px 30px;
+  outline: none;
+  border: none;
+  transition: 0.1s;
+  cursor: pointer;
+}
+
+#contact-btn:hover {
+  transition: ease-in;
+  background: linear-gradient(to right, #92e7e2, #f8ddc9);
+}
+
+#vector-img > img {
+  float: left;
+  width: 800px;
+  height: 644px;
+  margin-bottom: 100px;
+  margin-top: 83px;
+}
+
+#mark-img > img {
+  margin-left: 100px;
+}
 /*# sourceMappingURL=style.css.map */
