@@ -10,3 +10,144 @@
 .container{
     width: 1920px;
 }
+
+.our-goals{
+    margin: 249px auto 0;
+    width: 1300px;
+    height: 1394px;
+    & .top-part, .bottom-part{
+        width: 100%;
+        height: 774px;
+        display: flex;
+        justify-content: space-between;
+        & .pictures{
+            width: 294px;
+
+            & #customer{
+                transform: translate(-151px,-130px);
+            }
+            & #diagram{
+                transform: translate(257px,-618px);
+        }
+        }
+
+    & .info-part{
+        width: 480px;
+        & h1{
+            margin-top: 45px;
+            @include description-header;
+        }
+        & p{
+            @include description;
+        }
+    }
+}
+& .bottom-part{
+    & .pictures{
+        width: 804px;
+    }
+    & .info-part{
+        & h1{
+            margin-top: 118px;
+        }
+    }
+}
+}
+
+.services{
+    margin: 81.4px 310px 0 0;
+    width: 1610px;
+    height: 1481px;
+    background-image: url(../image/VSO.svg);
+    background-position: -500px -80px;
+    .service-info{
+        height: 100%;
+        width: 1300px;
+        margin-left: 310px;
+        text-align: center;
+        & h1{
+            margin-top: 157px;
+            @include description-header;
+        }
+        & a{
+            margin-top: 34.1px;
+            color: #75BEEB;
+            font-size: 18px;
+            line-height: 60px;
+            font-weight: 400;
+        }
+        & .cards, .bottom-cards{
+            width: 1300px;
+            display: flex;
+            justify-content: space-between;
+            & .card{
+                width: 265px;
+                height: 300px;
+                background-color: #FFFFFF;
+                border-radius: 20px;
+                padding: 42.3px 43.5px;
+                box-sizing: border-box;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: flex-start;
+                & h4{
+                    text-align: left;
+                    @include solution-way-style;
+                }
+            }
+        }
+        & .bottom-cards{
+            width: 955px;
+            margin: 85px 0 0 173px;
+        }
+    }
+}
+
+.testimonials{
+    margin: -137.84px 0 0 196px;
+    width: 1528px;
+    height: 669.34px;
+    text-align: center;
+    & h5{
+        @include description-header;
+    }
+    & img{
+        margin-top: 54.3px;
+    }
+    &>p{
+        margin-top: -77px;
+        @include feedback-style;
+    }
+    & .customer-info{
+        & h5{
+            font-size: 30px;
+            line-height: 38px;
+            font-weight: 400;
+            color: #1E2046;
+            margin-top: 60px;
+        }
+        p{
+            font-size: 18px;
+            line-height: 38px;
+            font-weight: 300;
+            color: #1E2046;
+            opacity: 0.7;
+        }
+    }
+    & [alt="girl"]{
+        transform: translate(-212px,-591.7px);
+    }
+    & [alt="man-sunglasses"]{
+        transform: translate(-451px,-411px);
+    }
+    & [alt="girl-sunglasses"]{
+        transform: translate(595px,-404px);
+    }
+    & [alt="man-hat"]{
+        transform: translate(475px,-652px);
+    }
+    & [alt="main-in-suit"]{
+        transform: translate(262px,-314px);
+    }
+}
