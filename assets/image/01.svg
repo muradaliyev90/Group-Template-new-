@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="700" viewBox="0 0 600 700">
+  <defs>
+    <filter id="BG_02" x="0" y="0" width="600" height="700" filterUnits="userSpaceOnUse">
+      <feOffset dy="21" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="50" result="blur"/>
+      <feFlood flood-color="#406780" flood-opacity="0.071"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.603" y1="20.521" x2="5.552" y2="20.521" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff80b2"/>
+      <stop offset="1" stop-color="#ffddbf"/>
+    </linearGradient>
+  </defs>
+  <g id="_01" data-name="01" transform="translate(-160 -1154)">
+    <g transform="matrix(1, 0, 0, 1, 160, 1154)" filter="url(#BG_02)">
+      <rect id="BG_02-2" data-name="BG 02" width="300" height="400" rx="20" transform="translate(150 129)" fill="#fff"/>
+    </g>
+    <g id="Content">
+      <g id="User">
+        <circle id="BG" cx="30" cy="30" r="30" transform="translate(363 1343)" fill="#75beeb" opacity="0.102"/>
+        <g id="Icon">
+          <path id="_02" data-name="02" d="M385,1382a8,8,0,1,1,16,0" fill="none" stroke="#75beeb" stroke-linecap="round" stroke-width="4" opacity="0.4"/>
+          <g id="_01-2" data-name="01" transform="translate(385 1362)" fill="none" stroke="#75beeb" stroke-width="4">
+            <circle cx="8" cy="8" r="8" stroke="none"/>
+            <circle cx="8" cy="8" r="6" fill="none"/>
+          </g>
+        </g>
+        <rect id="Line" width="60" height="10" rx="4.99" transform="translate(452 1353)" fill="#31aaff" opacity="0.502"/>
+        <rect id="Line-2" data-name="Line" width="105" height="10" rx="4.99" transform="translate(452 1380)" fill="#e4e4e4" opacity="0.502"/>
+      </g>
+      <g id="_02-2" data-name="02">
+        <rect id="_02-3" data-name="02" width="35" height="6" rx="2.99" transform="translate(383 1601)" fill="#821dff" opacity="0.302"/>
+        <rect id="_01-3" data-name="01" width="60" height="6" rx="3" transform="translate(383 1617)" fill="#821dff" opacity="0.502"/>
+      </g>
+      <g id="_01-4" data-name="01">
+        <rect id="_02-4" data-name="02" width="35" height="6" rx="2.99" transform="translate(477 1601)" fill="#821dff" opacity="0.302"/>
+        <rect id="_01-5" data-name="01" width="60" height="6" rx="3" transform="translate(477 1617)" fill="#821dff" opacity="0.502"/>
+      </g>
+      <path id="Shape_5" data-name="Shape 5" d="M365,1505l33-18,32,16,31-9,30-3,34,24,30-18" fill="none" stroke="#ff5650" stroke-width="1" opacity="0.502"/>
+      <g id="Static">
+        <g id="Static-2" data-name="Static">
+          <path id="_07" data-name="07" d="M365.5,1481.813h0a2.5,2.5,0,0,1,2.5,2.5v39.219a2.5,2.5,0,0,1-2.5,2.5h0a2.5,2.5,0,0,1-2.5-2.5v-39.219A2.5,2.5,0,0,1,365.5,1481.813Z" fill="#1e2046"/>
+          <rect id="_06" data-name="06" width="5" height="31.41" rx="2.49" transform="translate(395 1472.5)" fill="#1e2046"/>
+          <rect id="_05" data-name="05" width="5" height="44.22" rx="2.49" transform="translate(426 1481.81)" fill="#1e2046"/>
+          <rect id="_04" data-name="04" width="5" height="47.75" rx="2.5" transform="translate(458 1471.31)" fill="#1e2046"/>
+          <path id="_03" data-name="03" d="M491.5,1469h0a2.5,2.5,0,0,1,2.5,2.5v64.844a2.5,2.5,0,0,1-2.5,2.5h0a2.5,2.5,0,0,1-2.5-2.5V1471.5A2.5,2.5,0,0,1,491.5,1469Z" fill="#1e2046"/>
+          <path id="_02-5" data-name="02" d="M523.5,1494.594h0a2.5,2.5,0,0,1,2.5,2.5V1537.5a2.5,2.5,0,0,1-2.5,2.5h0a2.5,2.5,0,0,1-2.5-2.5v-40.406A2.5,2.5,0,0,1,523.5,1494.594Z" fill="#1e2046"/>
+          <rect id="_01-6" data-name="01" width="5" height="45.37" rx="2.49" transform="translate(552 1472.5)" fill="#1e2046"/>
+        </g>
+        <path id="Gradient_Overlay" data-name="Gradient Overlay" d="M521,1537.5v-40.407a2.5,2.5,0,0,1,5,0V1537.5a2.5,2.5,0,0,1-5,0Zm-32-1.156V1471.5a2.5,2.5,0,0,1,5,0v64.844a2.5,2.5,0,0,1-5,0Zm-126-12.813v-39.219a2.5,2.5,0,0,1,5,0v39.219a2.5,2.5,0,0,1-5,0Zm65.49,2.5a2.491,2.491,0,0,1-2.49-2.49V1484.3a2.49,2.49,0,0,1,2.49-2.489h.02A2.49,2.49,0,0,1,431,1484.3v39.24a2.491,2.491,0,0,1-2.49,2.49Zm29.51-9.47v-42.75a2.5,2.5,0,1,1,5,0v42.75a2.5,2.5,0,0,1-5,0Zm96.49,1.31a2.49,2.49,0,0,1-2.49-2.489v-40.39a2.491,2.491,0,0,1,2.49-2.49h.02a2.491,2.491,0,0,1,2.49,2.49v40.39a2.49,2.49,0,0,1-2.49,2.489Zm-157-13.96a2.49,2.49,0,0,1-2.49-2.49V1474.99a2.491,2.491,0,0,1,2.49-2.49h.02a2.49,2.49,0,0,1,2.489,2.49v26.429a2.49,2.49,0,0,1-2.489,2.49Z" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+  </g>
+</svg>
