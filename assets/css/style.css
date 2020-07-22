@@ -107,9 +107,208 @@ a:nth-child(1) {
 
 #mark-img > img {
   margin-left: 100px;
+  
+.our-goals {
+  margin: 249px auto 0;
+  width: 1300px;
+  height: 1394px;
 }
-/*# sourceMappingURL=style.css.map */
+  
+.our-goals .top-part, .our-goals .bottom-part {
+  width: 100%;
+  height: 774px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
 
+.our-goals .top-part .pictures, .our-goals .bottom-part .pictures {
+  width: 294px;
+}
+
+.our-goals .top-part .pictures #customer, .our-goals .bottom-part .pictures #customer {
+  -webkit-transform: translate(-151px, -130px);
+          transform: translate(-151px, -130px);
+}
+
+.our-goals .top-part .pictures #diagram, .our-goals .bottom-part .pictures #diagram {
+  -webkit-transform: translate(257px, -618px);
+          transform: translate(257px, -618px);
+}
+
+.our-goals .top-part .info-part, .our-goals .bottom-part .info-part {
+  width: 480px;
+}
+
+.our-goals .top-part .info-part h1, .our-goals .bottom-part .info-part h1 {
+  margin-top: 45px;
+  font-size: 42px;
+  line-height: 60px;
+  font-weight: 400;
+  color: #1E2046;
+}
+
+.our-goals .top-part .info-part p, .our-goals .bottom-part .info-part p {
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 300;
+  color: #1E2046;
+}
+
+.our-goals .bottom-part .pictures {
+  width: 804px;
+}
+
+.our-goals .bottom-part .info-part h1 {
+  margin-top: 118px;
+}
+
+.services {
+  margin: 81.4px 310px 0 0;
+  width: 1610px;
+  height: 1481px;
+  background-image: url(../image/VSO.svg);
+  background-position: -500px -80px;
+}
+
+.services .service-info {
+  height: 100%;
+  width: 1300px;
+  margin-left: 310px;
+  text-align: center;
+}
+
+.services .service-info h1 {
+  margin-top: 157px;
+  font-size: 42px;
+  line-height: 60px;
+  font-weight: 400;
+  color: #1E2046;
+}
+
+.services .service-info a {
+  margin-top: 34.1px;
+  color: #75BEEB;
+  font-size: 18px;
+  line-height: 60px;
+  font-weight: 400;
+}
+
+.services .service-info .cards, .services .service-info .bottom-cards {
+  width: 1300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.services .service-info .cards .card, .services .service-info .bottom-cards .card {
+  width: 265px;
+  height: 300px;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  padding: 42.3px 43.5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.services .service-info .cards .card h4, .services .service-info .bottom-cards .card h4 {
+  text-align: left;
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 400;
+  color: #1E2046;
+}
+
+.services .service-info .bottom-cards {
+  width: 955px;
+  margin: 85px 0 0 173px;
+}
+
+.testimonials {
+  margin: -137.84px 0 0 196px;
+  width: 1528px;
+  height: 669.34px;
+  text-align: center;
+}
+
+.testimonials h5 {
+  font-size: 42px;
+  line-height: 60px;
+  font-weight: 400;
+  color: #1E2046;
+}
+
+.testimonials img {
+  margin-top: 54.3px;
+}
+
+.testimonials > p {
+  margin-top: -77px;
+  font-size: 24px;
+  line-height: 38px;
+  font-weight: 400;
+  color: #1E2046;
+}
+
+.testimonials .customer-info h5 {
+  font-size: 30px;
+  line-height: 38px;
+  font-weight: 400;
+  color: #1E2046;
+  margin-top: 60px;
+}
+
+.testimonials .customer-info p {
+  font-size: 18px;
+  line-height: 38px;
+  font-weight: 300;
+  color: #1E2046;
+  opacity: 0.7;
+}
+
+.testimonials [alt="girl"] {
+  -webkit-transform: translate(-212px, -591.7px);
+          transform: translate(-212px, -591.7px);
+}
+
+.testimonials [alt="man-sunglasses"] {
+  -webkit-transform: translate(-451px, -411px);
+          transform: translate(-451px, -411px);
+}
+
+.testimonials [alt="girl-sunglasses"] {
+  -webkit-transform: translate(595px, -404px);
+          transform: translate(595px, -404px);
+}
+
+.testimonials [alt="man-hat"] {
+  -webkit-transform: translate(475px, -652px);
+          transform: translate(475px, -652px);
+}
+
+.testimonials [alt="main-in-suit"] {
+  -webkit-transform: translate(262px, -314px);
+          transform: translate(262px, -314px);
+}
 
 footer {
   margin-top: 130px;
